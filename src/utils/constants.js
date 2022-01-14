@@ -1,24 +1,24 @@
 import { AiOutlineHome } from "react-icons/ai";
 import { BsFlag } from "react-icons/bs";
-import { IoCreateOutline } from "react-icons/io";
+import { MdAddCircleOutline } from "react-icons/md";
 
 export const links = [
   {
     id: 1,
     text: "Home",
     url: "/",
-    imgUrl: AiOutlineHome,
+    imgUrl: <AiOutlineHome size="32" color="#7a7a7a" />,
   },
   {
     id: 2,
     text: "Waive Task",
     url: "/waive",
-    imgUrl: BsFlag,
+    imgUrl: <BsFlag size="32" color="#7a7a7a" />,
   },
   {
     id: 3,
     text: "Create Task",
     url: "/create",
-    imgUrl: IoCreateOutline,
+    imgUrl: <MdAddCircleOutline size="32" color="#7a7a7a" />,
   },
 ];
